@@ -1,13 +1,8 @@
-//
-//  Class author:  Leo Brennan
-//  Date created:  10/28/26
-//  General description: bunch of methods that create patterns with loops. this is used for practicing loops
-//
 public class PrintX {
     public static void main(String[] args) {
-        PrintX.printX(5);
-        System.out.println();
-        PrintX.checkerBoard(5);
+        //PrintX.printX(5);
+        //System.out.println();
+        PrintX.checkerBoard(6);
     }
     public static void printX(int size) {
         for (int i = 0; i < size; i++) {
